@@ -32,7 +32,7 @@ print(f"Approximation of Pi after {total_trials} trials is: {(in_circle / total_
 print(f'Accuracy level: {inst_approx[-1] * 100 / math.pi}%')
 print(f'Margin of error: {(math.pi - inst_approx[-1]) / math.pi}%')
 
-# Plot the instantaneous approximation of Pi
+# Plot the Monte Carlo simulation results
 plt.title("Monte Carlo Simulation for Pi Approximation")
 plt.legend([f'Dots inside the circle: {in_circle} to a total number of trials: {total_trials }'], loc='upper right')
 plt.xlabel("X-axis")
